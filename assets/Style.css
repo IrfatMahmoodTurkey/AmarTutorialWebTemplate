@@ -1,0 +1,737 @@
+/* logo */
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+/* navigation */
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+
+/* banner */
+@import url('https://fonts.googleapis.com/css?family=Galada&display=swap');
+
+/* special course header */
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+
+body{
+    margin:0;
+}
+
+/* navbar and header */
+.active{
+    border-bottom:3px solid coral;
+}
+
+.navbar-font-style{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+}
+
+.signin-button{
+    background-color: coral;
+    color: white;
+    transition: 0.5s;
+}
+
+.signin-button:hover{
+    background-color: transparent;
+    color: coral;
+    border:1px solid coral;
+    transition: ease-in 0.5s;
+}
+
+.navbar-custom, .section, .footer-background-section, .modal-header, .modal-footer{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.navbar-toggler{
+    color: white!important;
+}
+
+.section{
+    padding-bottom: 80px;
+    padding-top: 55px;
+}
+
+.header-section-row{
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.header-content{
+    margin-top: 20%;
+}
+
+.banner-image{
+    height: 100%;
+    width: 100%;
+}
+
+.logo, .nav-link{
+    color:white !important;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: coral;
+}
+
+
+.play-button{
+    background-color: transparent;
+    color: white!important;
+}
+
+.play-button:hover{
+    transition: ease-in 1s;
+    background-color: #8E2DE2;
+    color: white;
+}
+
+.first-header, .concept-header, .special-header, .count-header, .offer-header, .category-header, .our-intro-header, .sub-header, .sign-in-modal-header, .brife-header, .brife-header-related, .contact-header, .about-header, .instructor-list-header, .course-categories-list-header{
+    font-family: 'Galada', cursive;
+}
+
+/* why us section */
+.whyus-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.whyus-content{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.whyus-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 200px;
+    margin: auto;
+}
+
+.whyus-paragraph{
+    margin-top: 15px;
+}
+
+.whyus-image{
+    height: 100%;
+    width: 100%;
+}
+
+.whyus-container{
+    background-color: #4A00E0;
+}
+
+/* categories section */
+.categories-section, .sub-section, .crash-course-section, .our_intro_section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-img-top{
+    height: 180px;
+    width: 100%;
+}
+
+.card{
+    margin-top: 15px;
+}
+
+.view-details-button{
+    border-color: #4A00E0;
+    color: #4A00E0;
+}
+
+.view-details-button:hover{
+    transition: ease-in 0.5s;
+    background-color: #4A00E0;
+    color: white;
+}
+
+.category-header, .concept-header, .offer-header, .our-intro-header, .sub-header, .brife-header, .brife-header-related, .contact-header, .about-header, .instructor-list-header, .course-categories-list-header{
+    text-align: center;
+}
+
+.category-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 280px;
+    margin: auto;
+}
+
+/* concept special div and count */
+.concept-section, .count-section{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.count-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 240px;
+    margin: auto;
+}
+
+.concept-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 250px;
+    margin: auto;
+}
+
+.concept-content, .count-content{
+    text-align: center;
+}
+
+.special-icon{
+    font-size: 100px;
+    color: #8E2DE2;
+}
+
+.count-icon{
+    font-size: 60px;
+    color: #880E4F;
+}
+
+.special-row-content, .count-row-content{
+    margin-top: 15px;
+}
+
+
+
+/* crash course */
+.crash-course-row-content{
+    margin-top: 15px;
+}
+
+.offer-uploader{
+    padding-left: 0;
+}
+
+.offer-underline, .our-intro-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 230px;
+    margin: auto;
+}
+
+.sub-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 260px;
+    margin: auto;
+}
+
+.del-section{
+    color:coral;
+}
+
+.tutor_name{
+    color:#4A00E0;
+}
+
+.price_span{
+    color:#8E2DE2;
+}
+
+.offer-header-main, .card-title, .tutor_name, .user-name{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.designation-icon, .envelope-icon, .clock-icon{
+    color: #90A4AE;
+}
+
+/* our intro video div */
+.video-div{
+    margin-top: 15px;
+}
+
+/* subscriber comments */
+.comment-box{
+    border-left: 4px solid #4A00E0;
+    margin-top: 18px;
+}
+
+.comment-picture{
+    height: 80px;
+}
+
+/* foooter */
+.copyright-paragraph{
+    text-align: center;
+}
+
+.social-lists{
+    list-style-type: none;
+    text-align: center;
+}
+
+.social{
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.social-facebook{
+    color: #3B5998;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.social-facebook:hover{
+    transition: ease-in 0.5s;
+    padding: 2px 10px 2px 10px;
+    background-color: #3B5998;
+    color: white;
+    border-radius: 20%;
+}
+
+.social-twitter{
+    color: #00ACEE;
+    text-decoration: none;
+}
+
+.social-twitter:hover{
+    transition: ease-in 0.5s;
+    padding: 2px 10px 2px 10px;
+    background-color: #00ACEE;
+    color: white;
+    border-radius: 20%;
+}
+
+.social-youtube{
+    color: #C4302B;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.social-youtube:hover{
+    transition: ease-in 0.5s;
+    padding: 2px 10px 2px 10px;
+    background-color: #C4302B;
+    color: white;
+    border-radius: 20%;
+}
+
+.social-linkedin{
+    color: #0E76A8;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.social-linkedin:hover{
+    transition: ease-in 0.5s;
+    padding: 2px 10px 2px 10px;
+    background-color: #0E76A8;
+    color: white;
+    border-radius: 20%;
+}
+
+.social-whatsapp{
+    color: #075E54;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.social-whatsapp:hover{
+    transition: ease-in 0.5s;
+    padding: 2px 10px 2px 10px;
+    background-color: #075E54;
+    color: white;
+    border-radius: 20%;
+}
+
+.footer-background-section{
+    padding-top: 50px;
+}
+
+.footer-social-background{
+    background-color: #ECEFF1;
+}
+
+.footer-list{
+    list-style-type: none;
+}
+
+.footer-link{
+    color: white;
+    transition: 0.2s;
+}
+
+.footer-link:hover{
+    text-decoration: none;
+    transition: ease-in 0.2s;
+    color: coral;
+}
+
+
+
+
+/* logo exceptional */
+.logo-icon{
+    color: #B2DFDB;
+}
+
+.start{
+    color: #29B6F6;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+.end{
+    font-family: 'Old Standard TT', serif;
+}
+
+/* sign in modal */
+.modal-close-button{
+    color: white;
+    transition: 0.2s;
+}
+
+.modal-close-button:hover{
+    color: lightcyan;
+    transition: ease-in .2s;
+}
+
+.button-close{
+    background-color: coral;
+    transition: 0.5s;
+    color: white;
+}
+
+.button-close:hover{
+    background-color: transparent;
+    border: 1px solid coral;
+    transition: ease-in .5s;
+    color: coral;
+}
+
+.sign-in-modal-header{
+    text-align: center;
+}
+
+.sign-in-modal-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 100px;
+    margin: auto;
+}
+
+.button-sign-in{
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: ease-in 0.5s;
+    background-color: #4A00E0;
+    color: white;
+
+}
+
+.button-sign-in:hover{
+    background-color: transparent;
+    border-color: #4A00E0;
+    color: #4A00E0;
+}
+
+.sign-in-form-control{
+    border: 1px solid rgb(93, 27, 226);
+    transition: 0.5s;
+}
+
+.sign-in-form-control:focus{
+    border: 2px solid #4A00E0;
+    transition: ease-in 0.5s;
+}
+
+.or-span{
+    text-align: center;
+    font-size: 15px;
+}
+
+.facebook-button{
+    background-color: #3B5998;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.facebook-button:hover{
+    background-color: transparent;
+    border:1px solid #3B5998;
+    color: #3B5998;
+    transition: ease-in .5s;
+}
+
+.google-button{
+    background-color: #DB4437;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.google-button:hover{
+    background-color: transparent;
+    border:1px solid #DB4437;
+    color: #DB4437;
+    transition: ease-in .5s;
+}
+
+.forget-password-link, .create-new-account-link{
+    text-align: center;
+}
+
+.sign-in-form{
+    margin-top: 15px;
+}
+
+
+
+
+/* details page */
+
+/* banner */
+.details-banner{
+    background-image: url("software.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.details-banner-section{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.topic-title{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 40px;
+}
+
+.details-banner-content-container{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.details-topics-span{
+    margin-left: 15px;
+    background-color: coral;
+    color: white;
+    padding: 5px;
+}
+
+/* details body */
+.details-body-content{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.topic-list-header{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.details-category-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.category-image{
+    height: 100%;
+    width: 100%;
+}
+
+.reaction-content{
+    margin-top: 7px;
+}
+
+.category-title{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    width: 100%;
+    padding: 5px 10px 10px 10px;
+}
+
+.item-price-span{
+    color: #8E2DE2;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.course-length-p{
+    float: right;
+}
+
+
+.filter-list{
+    margin-top: 10px;
+}
+
+/* brife course */
+.brife-container, .contact-container, .about-container, .instructor-list-container, .courses-categories-container{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.brife-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 200px;
+    margin: auto;
+}
+
+.details-brief-content{
+    margin-top: 10px;
+}
+
+.details-brife-image{
+    height: 400px;
+    width: 100%;
+}
+
+.brife-course-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.brief-avatar-image{
+    height: 80px;
+    width: 80px;
+}
+
+.brife-icon-heart{
+    color: #e53935;
+}
+
+.brife-icon-comment{
+    color: #2196f3;
+}
+
+.brife-icon-clock{
+    color: #009688;
+}
+
+.brife-icon-video{
+    color: #ff9800;
+}
+
+.brife-icon-heart, .brife-icon-comment, .brife-icon-clock, .brife-icon-video{
+    font-size: 20px;
+}
+
+.button-add-favourite{
+    background-color: #e53935;
+    color:white;
+    transition: 0.5s;
+}
+
+.button-add-favourite:hover{
+    background-color: transparent;
+    border:1px solid #e53935;
+    color:#e53935;
+    transition: ease-in .5s;
+}
+
+.brief-price-main{
+    color: #8E2DE2;
+    font-size: 50px;
+}
+
+.brief-price-del-section{
+    color: coral;
+    font-size: 35px;
+}
+
+.brife-related-underline, .contact-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 200px;
+    margin: auto;
+}
+
+.brief-column{
+    margin-bottom: 20px;
+}
+
+.related-contents{
+    margin-top:10px
+}
+
+.brife-category-title{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    width: 100%;
+    padding: 5px 10px 10px 10px;
+}
+
+.related-contents-border{
+    border: 1px solid #cfd8dc;
+}
+
+/* contact */
+.contact-div-body{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.phone-contact-icon{
+    color:#26a69a;
+}
+
+.envelope-contact-icon{
+    color:#29b6f6;
+}
+
+.map-marker-contact-icon{
+    color:#ef5350;
+}
+
+/* about */
+.about-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 130px;
+    margin: auto;
+}
+
+.about-container-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* instructor list */
+.instructor-list-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 200px;
+    margin: auto;
+}
+
+.instructor-profile-image{
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.instructor-list-body-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* course categories */
+.course-categories-list-underline{
+    background-color: #8E2DE2;
+    height: 2px;
+    width: 280px;
+    margin: auto;
+}
